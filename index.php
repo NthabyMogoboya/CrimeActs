@@ -19,12 +19,13 @@
 
     <!-- Optional JavaScript -->
   
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">
-    <img src="images/default.png" width="150" height="60" alt=""  href="#">
+     <img src="images/default.png" width="150" height="60" alt=""  href="#">
     </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+  
+     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
@@ -90,3 +91,10 @@
 </html>
 
 
+<<<<<<< HEAD
+
+
+
+
+=======
+>>>>>>> e512554a2506a8f73ee612398fe3e2d18a50ad6c
