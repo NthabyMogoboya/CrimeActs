@@ -1,4 +1,5 @@
 
+
 .conatainer_dashboard{
     background-color: darkgrey;
 } 
@@ -119,3 +120,166 @@ body {
     box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
   }
   
+
+.murder{
+    border: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: aquamarine;
+    background-color: aquamarine;
+    border-width: 25px;
+    width: 500px;
+    height: 100px;
+    color: azure;
+    text-align: center;
+    font: 3em monospace;
+    transform: translate(0%,100%);
+}
+.rape{
+    border: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: aquamarine;
+    background-color: aquamarine;
+    border-width: 25px;
+    width: 500px;
+    height: 100px;
+    color: azure;
+    text-align: center;
+    font: 3em monospace;
+    transform: translate(110%,0%);
+}
+.hijack{
+    border: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: aquamarine;
+    background-color: aquamarine;
+    border-width: 25px;
+    width: 500px;
+    height: 100px;
+    color: azure;
+    text-align: center;
+    font: 3em monospace;
+    transform: translate(0%,30%);
+}
+.kidnap{
+    border: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: aquamarine;
+    background-color: aquamarine;
+    border-width: 25px;
+    width: 500px;
+    height: 100px;
+    color: azure;
+    text-align: center;
+    font: 3em monospace;
+    transform: translate(220%,-200%);
+}
+.attack{
+    border: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: aquamarine;
+    background-color: aquamarine;
+    border-width: 25px;
+    width: 500px;
+    height: 100px;
+    color: azure;
+    text-align: center;
+    font: 3em monospace;
+    transform: translate(110%,-170%);
+}
+.robberies{
+    border: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: aquamarine;
+    background-color: aquamarine;
+    border-width: 25px;
+    width: 500px;
+    height: 100px;
+    color: azure;
+    text-align: center;
+    font: 3em monospace;
+    transform: translate(0%,-270%);
+}
+.heists{
+    border: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: aquamarine;
+    background-color: aquamarine;
+    border-width: 25px;
+    width: 500px;
+    height: 100px;
+    color: azure;
+    text-align: center;
+    font: 3em monospace;
+    transform: translate(220%,-370%);
+}
+.taxi{
+    border: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: aquamarine;
+    background-color: aquamarine;
+    border-width: 25px;
+    width: 500px;
+    height: 100px;
+    color: azure;
+    text-align: center;
+    font: 3em monospace;
+    transform: translate(110%,-170%);
+}
+.gang{
+    border: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: aquamarine;
+    background-color: aquamarine;
+    border-width: 25px;
+    width: 500px;
+    height: 100px;
+    color: azure;
+    text-align: center;
+    font: 3em monospace;
+    transform: translate(0%,-270%);
+}
+.xenophobia{
+    border: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: aquamarine;
+    background-color: aquamarine;
+    border-width: 25px;
+    width: 500px;
+    height: 100px;
+    color: azure;
+    text-align: center;
+    font: 3em monospace;
+    transform: translate(220%,-370%);
+}
+.theft{
+    border: 2px ;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: aquamarine;
+    background-color: aquamarine;
+    border-width: 25px;
+    width: 500px;
+    height: 100px;
+    color: azure;
+}
+.rape{
+    border: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: aquamarine;
+    background-color: aquamarine;
+    border-width: 25px;
+    color: azure;
+    width: 500px;
+    height: 100px;
+}
