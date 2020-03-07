@@ -16,121 +16,74 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="conatainer_dashboard">
+<div class="d-flex" id="wrapper">
 
-        
-        <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
-            <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Company name</a>
-            <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
-            <ul class="navbar-nav px-3">
-                <li class="nav-item text-nowrap">
-                <a class="nav-link" href="#">Sign out</a>
-                </li>
-            </ul>
-        </nav>
-
-        <div class="row">
-        <div class="sidebar">
-        <ul class="nav flex-column">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">
-              Dashboard <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              Crime categories
-            </a>
-          </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="#">
-              Products
-            </a>
-          </li> -->
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              Customers
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              Reports
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              Integrations
-            </a>
-          </li>
-        </ul>
-
-        <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
-          <span>Saved reports</span>
-          <a class="d-flex align-items-center text-muted" href="#" aria-label="Add a new report">
-            
-          </a>
-        </h6>
-        <ul class="nav flex-column mb-2">
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              Current month
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              Last quarter
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              Social engagement
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              Year-end sale
-            </a>
-          </li>
-        </ul>
-      </div>
-
-
-      <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4"><div class="chartjs-size-monitor" style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div>
-      <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-        <h1 class="h2">We are Strategic Legal Advisors</h1>
-        <div class="btn-toolbar mb-2 mb-md-0">
-          <div class="btn-group mr-2">
-            <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
-            <button type="button" class="btn btn-sm btn-outline-secondary">Export</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="infor1">
-          <p>
-          South African entrepreneurs seem to be in agreement that businesses in South Africa are faced with a maze of red tape cramping their business style, and making it very hard to safely negotiate all the potential transgressions they may unwittingly be committing: BEE compliance, Corporate compliance, submitting annual returns, statutory due diligence reviews, knowing about and understanding all legislation applicable to the company – to mention but a few.
-
-          Even if the entrepreneur has a sound knowledge of all the requirements and restrictions, the key question remains whether there will be ample time available to take care of the core business and run a profitable business after addressing all the repetitive red tape?
-
-          Would it not make a world of positive difference if all the non-core but very important aspects of the business could be taken care of – professionally – leaving the entrepreneur to do what he or she is primarily in business for: to run a successful business?
-          </p>
-        </div>
-
-      <h2>Section title</h2>
-      
-
-      <!-- Code here -->
-
-
-
-
-
-    </main>
-    </div>
-
-    
+<!-- Sidebar -->
+<div class=" border-right" id="sidebar-wrapper">
+  <div class="sidebar-heading"><h3>Crime Acts</h3></div>
+  <div class="list-group list-group-flush">
+    <a href="#" class="list-group-item list-group-item-action">Dashboard</a>
+    <a href="#" class="list-group-item list-group-item-action">Shortcuts</a>
+    <a href="#" class="list-group-item list-group-item-action">Overview</a>
+    <a href="#" class="list-group-item list-group-item-action">Events</a>
+    <a href="#" class="list-group-item list-group-item-action">Profile</a>
+    <a href="#" class="list-group-item list-group-item-action">Status</a>
+  </div>
 </div>
+<!-- /#sidebar-wrapper -->
 
+<!-- Page Content -->
+<div id="page-content-wrapper">
+
+    <nav class="navbar navbar-expand-lg nav border-bottom">
+      <!-- <button class="btn btn-primary" id="menu-toggle">Toggle Menu</button> -->
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  <div class="container-fluid">
+    <br>
+      <main role="main" class="container">
+        <div class="jumbotron">
+          <h1>We are Strategic Legal Advisorse</h1>
+          <br>
+          <p class="lead">South African entrepreneurs seem to be in agreement that businesses in South Africa are faced with a maze of red tape cramping their business style, and making it very hard to safely negotiate all the potential transgressions they may unwittingly be committing: BEE compliance, Corporate compliance, submitting annual returns, statutory due diligence reviews, knowing about and understanding all legislation applicable to the company – to mention but a few.
+              <br>
+                        Even if the entrepreneur has a sound knowledge of all the requirements and restrictions, the key question remains whether there will be ample time available to take care of the core business and run a profitable business after addressing all the repetitive red tape?
+              <br>
+                        Would it not make a world of positive difference if all the non-core but very important aspects of the business could be taken care of – professionally – leaving the entrepreneur to do what he or she is primarily in business for: to run a successful business?</p>
+          <a class="btn btn-lg btn-primary" href="/docs/4.4/components/navbar/" role="button">View navbar docs »</a>
+        </div>
+    </main>
+  </div>
+  <!-- /#page-content-wrapper -->
+
+</div>
+<!-- /#wrapper -->
         
 </body>
 </html>
