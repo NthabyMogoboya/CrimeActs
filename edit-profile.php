@@ -15,18 +15,18 @@
 
     <title>Document</title>
 </head>
-<body style= "background-image: url('pictures/law.jpg');">
+<body style= "background-color:grey;" >
 <div class="d-flex" id="wrapper">
 
 <!-- Sidebar -->
 <div class=" border-right" id="sidebar-wrapper">
-  <div class="sidebar-heading"><h3>Crime Acts Solution</h3></div>
+  <div class="sidebar-heading"><h4>Crime Acts Solution</h4></div>
   <div class="list-group list-group-flush">
-    <a href="#" class="list-group-item list-group-item-action">Dashboard</a>
-    <a href="#" class="list-group-item list-group-item-action">Report Crime</a>
+    <a href="victim_dashboard.php" class="list-group-item list-group-item-action">Dashboard</a>
+    <a href="#" class="list-group-item list-group-item-action">Shortcuts</a>
     <a href="#" class="list-group-item list-group-item-action">Overview</a>
     <a href="#" class="list-group-item list-group-item-action">Events</a>
-    <a href="/CrimeActs/victimprofile.php" class="list-group-item list-group-item-action">Profile</a>
+    <a href="/victimprofile.php" class="list-group-item list-group-item-action">Profile</a>
     <a href="#" class="list-group-item list-group-item-action">Status</a>
   </div>
 </div>
@@ -64,26 +64,28 @@
         </ul>
       </div>
     </nav>
+ <div >
 
-  <div class="container-fluid">
-    <br>
-      <main role="main" class="container">
-        <div class="jumbotron">
-          <h1>We are Strategic Legal Advisorse</h1>
-          <br>
-          <p class="lead">South African entrepreneurs seem to be in agreement that businesses in South Africa are faced with a maze of red tape cramping their business style, and making it very hard to safely negotiate all the potential transgressions they may unwittingly be committing: BEE compliance, Corporate compliance, submitting annual returns, statutory due diligence reviews, knowing about and understanding all legislation applicable to the company – to mention but a few.
-              <br>
-                        Even if the entrepreneur has a sound knowledge of all the requirements and restrictions, the key question remains whether there will be ample time available to take care of the core business and run a profitable business after addressing all the repetitive red tape?
-              <br>
-                        Would it not make a world of positive difference if all the non-core but very important aspects of the business could be taken care of – professionally – leaving the entrepreneur to do what he or she is primarily in business for: to run a successful business?</p>
-          <a class="btn btn-lg btn-primary" href="/docs/4.4/components/navbar/" role="button">More About Us »</a>
-        </div>
-    </main>
-  </div>
-  <!-- /#page-content-wrapper -->
+    <div class="container-fluid">
+     <br>
+      <main role="main" class="container">        
+        <h3>Update Profile Information</h3> 
+         <form method="post" action="update-profile-action.php?user=<?php echo $user_data['username'] ?>">     
+               <label>Name:</label><br> 
+          <input type="text" name="fullname" value=" " /><br> 
+          <label>Age:</label><br>
+          <input type="text" name="age" value=" " /><br> 
+          <label>Gender:</label><br> 
+          <input type="text" name="gender" value=" " /><br>
+          <label>Address:</label><br>          
+          <input type="text" name="address" value=" " /><br><br>  
 
-</div>
-<!-- /#wrapper -->
-        
-</body>
-</html>
+          
+
+          <a class="btn btn-lg btn-primary" href="victimprofile.php" role="button">Update Profil»</a>
+          
+     </div> 
+</div>          
+       </form> 
+</div>    
+</html> 
