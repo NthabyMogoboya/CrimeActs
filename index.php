@@ -19,9 +19,9 @@
 
     <!-- Optional JavaScript -->
   
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light align-items-right bg-light middle-top " >
     <a class="navbar-brand" href="#">
-     <img src="images/default.png" width="150" height="60" alt=""  href="#">
+     <img src="images/logo.png" width="535" height="80" alt=""  href="#">
     </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
   
@@ -33,7 +33,10 @@
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">View Bill of Rights</a>
+        <a class="nav-link" href="bill.php">View Bill of Rights</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Services</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">About Us</a>
@@ -43,8 +46,8 @@
           Account
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">login</a>
-          <a class="dropdown-item" href="#">Register</a>
+          <a class="dropdown-item" href="#" class="btn btn-primary" data-toggle="modal" data-target="#Login">login</a>
+          <a class="dropdown-item" href="#" class="btn btn-primary" data-toggle="modal" data-target="#Registration">Register</a>
         </div>
       </li>
       <form class="form-inline">
@@ -67,15 +70,18 @@
       <img src="images/justice.jpeg" width="1950" height="440" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h1>The Bill Of Rights</h1>
-        <p>Nobody is above the law</p>
+        <h1>Nobody is above the law</h1>
         <a href="bill.php" class="btn btn-primary">View Bill of Rights</a>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="images/default.png" width="1950" height="440" class="d-block w-100" alt="...">
+      <img src="images/cops.jpg" width="1950" height="440" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h1>The Law at your fingertips</h1>
+      </div>
     </div>
     <div class="carousel-item">
-      <img src="images/default.png" width="1950" height="440" class="d-block w-100" alt="...">
+      <img src="images/keywords.jpg" width="1950" height="440" class="d-block w-100" alt="...">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -87,14 +93,129 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+
+
+
+
+<!-- Reg Form -->
+<div class="modal fade" id="Registration" tabindex="-1" role="dialog" aria-labelledby="icepRegisterUser"
+    aria-hidden="true">
+    <div class="modal-dialog modal-ls" role="document">
+        <div class="modal-content">
+            <div class="modal-header justify-content-center">
+                <h5 class="modal-title ">Registration</h5>
+            </div>
+            <form>
+                <div class="modal-body">
+
+                    <div class="form-group">
+                        <label>First Name</label>
+                        <input type="text" formControlName="fname" required class="form-control"
+                            placeholder="Enter Your First Name">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Last Name</label>
+                        <input type="text" formControlName="lname" required class="form-control"
+                            placeholder="Enter Your Last Name">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Phone Number</label>
+                        <input type="number" formControlName="lname" required class="form-control"
+                            placeholder="Enter Your Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <label>City</label>
+                        <input type="text" formControlName="lname" required class="form-control"
+                            placeholder="Enter Your City">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Email address</label>
+                        <input type="email" formControlName="email" required class="form-control" aria-describedby="emailHelp"
+                            placeholder="Enter your Email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.</small>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label>Password</label>
+                                <input type="password" formControlName="pword" required class="form-control"
+                                    placeholder="Enter Secret Password">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label>Confirm Password</label>
+                                <input type="password" formControlName="pword2" required class="form-control"
+                                    placeholder="Re-enter Secret Password">
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="submit" class="btn" >Submit</button> 
+                    <a href="login" class="btn btn-link">Login here</a> 
+                    <!-- (click)="postApplication() -->
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Modal end -->
+<!-- reg form end -->
+
+<!-- log Form -->
+<div class="modal fade" id="Login" tabindex="-1" role="dialog" aria-labelledby="icepRegisterUser"
+    aria-hidden="true">
+    <div class="modal-dialog modal-ls" role="document">
+        <div class="modal-content">
+            <div class="modal-header justify-content-center">
+                <h5 class="modal-title ">Login</h5>
+            </div>
+            <form>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label>Email address</label>
+                        <input type="email" formControlName="email" required class="form-control" aria-describedby="emailHelp"
+                            placeholder="Enter your Email">
+                        <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.</small> -->
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label>Password</label>
+                                <input type="password" formControlName="pword" required class="form-control"
+                                    placeholder="Enter Secret Password">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="submit" class="btn" >Submit</button> 
+                    <a href="login" class="btn btn-link">Login here</a> 
+                    <!-- (click)="postApplication() -->
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<br><br>
+<h1 class="text-center bold" >Services</h1>
+<br><br>
+<h1 class="text-center" >Partners</h1>
+<br><br>
+<h1 class="text-center" >FAQ</h1>
+<br><br>
+<h1 class="text-center" >Contact Us</h1>
   </body>
 </html>
 
 
-<<<<<<< HEAD
 
-
-
-
-=======
->>>>>>> e512554a2506a8f73ee612398fe3e2d18a50ad6c

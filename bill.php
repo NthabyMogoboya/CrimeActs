@@ -52,7 +52,24 @@
     </ul>
   </div>
 </nav>
-
-
+<h1>Bill of rights</h1>
+<div class="card align-item-center" style="width: 18rem;">
+<p>1. Equality - You cannot be discriminated against. But affirmative action and fair discrimination are allowed Everyone is equal before the law and may not be discriminated against.</p> 
+<p> 2. Human Dignity - Your dignity must be respected and protected. Everyone has a basic human dignity which must be respected. </p>
+<p> 3. Life - You have the right to life Everyone has the right to life. 
+<p> 4. Freedom and Security of the person - You cannot be detained without trial, tortured or punished poorly. Domestic violence is not allowed. You may not be physically detained without trial or abused in any way. 
+<p> 5. Slavery, Servitude and Forced labour - Slavery and forced labour are not allowed. You may never be subjected to slavery or forced labour. 
+<p> 6. Privacy - You cannot be searched or have your home or possession searched. Your right to privacy includes your body, home and possessions. 
+<p> 7. Freedom of religion, belief and opinion - You can believe and think whatever you want and can follow the religion of your choice. You have the right to think, believe and worship however you may choose. 
+<p> 8. Freedom of Expression - All people (including the press) can say whatever they want.
+<p> You have the right to say, read and study whatever you choose but hate speech is not allowed. 
+<p> 9. Assembly, Demonstration, Pickett and Petition - You can hold a demonstration, picket and present a petition. But you must do this peacefully. You have the right to peacefully assemble, demonstrate and protest. 
+<p>10. Freedom of Association - You can associate with whomever you want to. You have the right to associate with anyone. 
+<p>11. Political Rights - You can support the political party of your choice. If you are citizen, and at least 18years old you can vote. You may form a political party, run for office and vote for any party in free and fair elections. 
+    12. Citizenship - Your citizenship cannot be taken away from you. No citizen may be deprived of citizenship. 
+    13. Freedom of Movement and Residence - You can go and live anywhere in the Republic of South Africa You have the right to enter and leave the Republic at will. 14. Freedom of Trade, Occupation and Profession - You can do whatever work you choose. You have the right to choose any legal trade or occupation freely. 
+    15. Labour Relations - You may join trade 
+</p>
+</div>
 </body>
 </html>

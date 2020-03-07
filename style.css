@@ -160,3 +160,7 @@
     width: 500px;
     height: 100px;
 }
+.navbar-nav{
+    display: flex;
+    align-content: flex-end;
+}
