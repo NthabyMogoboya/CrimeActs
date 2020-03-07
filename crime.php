@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <p style="font-size:35px; text-align:center;">WHAT CRIME HAS BEING COMMITED</p>
     <div class="murder">
         Report Murder
     </div>
