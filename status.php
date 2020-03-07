@@ -15,17 +15,17 @@
 
     <title>Document</title>
 </head>
-<body style= "background-image: url('pictures/law.jpg');">
+<body style= "background-image: url('pictures/images.jfif');" >
 <div class="d-flex" id="wrapper">
 
 <!-- Sidebar -->
 <div class=" border-right" id="sidebar-wrapper">
-  <div class="sidebar-heading"><h3>Crime Acts Solution</h3></div>
+  <div class="sidebar-heading"><h3>Crime Acts Solution</h></div>
   <div class="list-group list-group-flush">
-    <a href="#" class="list-group-item list-group-item-action">Dashboard</a>
+    <a href="victim_dashboard.php" class="list-group-item list-group-item-action">Dashboard</a>
     <a href="crime.php" class="list-group-item list-group-item-action">Report Crime</a>
-    <a href="/CrimeActs/victimprofile.php" class="list-group-item list-group-item-action">Profile</a>
-    <a href="status.php" class="list-group-item list-group-item-action">Status</a>
+    <a href="#" class="list-group-item list-group-item-action">Profile</a>
+    <a href="#" class="list-group-item list-group-item-action">Status</a>
   </div>
 </div>
 <!-- /#sidebar-wrapper -->
@@ -64,18 +64,63 @@
     </nav>
 
   <div class="container-fluid">
-    <br>
       <main role="main" class="container">
-        <div class="jumbotron">
-          <h1>We are Strategic Legal Advisorse</h1>
-          <br>
-          <p class="lead">South African entrepreneurs seem to be in agreement that businesses in South Africa are faced with a maze of red tape cramping their business style, and making it very hard to safely negotiate all the potential transgressions they may unwittingly be committing: BEE compliance, Corporate compliance, submitting annual returns, statutory due diligence reviews, knowing about and understanding all legislation applicable to the company – to mention but a few.
-              <br>
-                        Even if the entrepreneur has a sound knowledge of all the requirements and restrictions, the key question remains whether there will be ample time available to take care of the core business and run a profitable business after addressing all the repetitive red tape?
-              <br>
-                        Would it not make a world of positive difference if all the non-core but very important aspects of the business could be taken care of – professionally – leaving the entrepreneur to do what he or she is primarily in business for: to run a successful business?</p>
-          <a class="btn btn-lg btn-primary" href="/docs/4.4/components/navbar/" role="button">More About Us »</a>
-        </div>
+      <h4 align="center">STATUS<h4>  <!--? php            $visitor = $_SESSION['username'];
+           if ($user == $visitor)
+{ ?-->            
+      <table>              
+                    <div class="container">
+  <div class="row">
+    <div class="col-*-*">
+    <tr><td>Status:</td><td></td>   
+                    </tr>
+                    
+    </div>
+    <div class="col-*-*"></div>
+  </div>
+  <div class="row">
+
+    <div class="col-*-*"><tr>                
+                     <td>Crime Scene:</td><td></td> 
+                    </tr> 
+                    </div>
+    <div class="col-*-*"></div>
+  </div>
+<br>
+  <div class="row">
+
+    <div class="col-*-*"><tr>
+                      <td>Name:</td><td></td>
+                    </tr>
+                    
+                    <br></div>
+    <div class="col-*-*"></div>
+  </div>
+
+  <div class="row">
+
+    <div class="col-*-*"><tr>
+                      <td>City:</td><td><!--?php echo $profile_data['address'] ?--></td> 
+                    </tr>
+                   
+                   </div>
+    <div class="col-*-*"></div>
+  </div>
+
+  <div class="row">
+
+    <div class="col-*-*"> <tr>                
+                     <td>E-mail:</td><td></td>  
+                     <tr> 
+                       </div>
+    <div class="col-*-*"></div>
+  </div>
+
+  
+</div>
+
+        </table> 
+       
     </main>
   </div>
   <!-- /#page-content-wrapper -->

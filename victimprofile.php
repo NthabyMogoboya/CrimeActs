@@ -23,9 +23,7 @@
   <div class="sidebar-heading"><h3>Crime Acts Solution</h></div>
   <div class="list-group list-group-flush">
     <a href="victim_dashboard.php" class="list-group-item list-group-item-action">Dashboard</a>
-    <a href="#" class="list-group-item list-group-item-action">Shortcuts</a>
-    <a href="#" class="list-group-item list-group-item-action">Overview</a>
-    <a href="#" class="list-group-item list-group-item-action">Events</a>
+    <a href="crime.php" class="list-group-item list-group-item-action">Report Crime</a>
     <a href="#" class="list-group-item list-group-item-action">Profile</a>
     <a href="#" class="list-group-item list-group-item-action">Status</a>
   </div>
