@@ -25,16 +25,16 @@
 </head>
 <body>
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Registration">
-  Register
+  Registration
 </button>
 
 <!-- Modal -->
 <!-- lunch button uses id as referrence -->
-<div class="modal fade" id="Registration" tabindex="-1" role="dialog" aria-labelledby="icepRegisterUser"
+<div class="modal fade" id="Registration" tabindex="-1" role="dialog" aria-labelledby="RegisterUser"
     aria-hidden="true">
     <div class="modal-dialog modal-ls" role="document">
         <div class="modal-content">
-            <div class="modal-header text-light justify-content-center">
+            <div class="modal-header  justify-content-center">
                 <h5 class="modal-title ">Registration</h5>
             </div>
             <form>
@@ -47,9 +47,15 @@
                     </div>
 
                     <div class="form-group">
-                        <label>Last Name</label>
+                        <label>Surname</label>
                         <input type="text" formControlName="lname" required class="form-control"
                             placeholder="Enter Your Last Name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>ID Number</label>
+                        <input type="number" formControlName="lname" required class="form-control"
+                            placeholder="Enter Your Phone Number">
                     </div>
 
                     <div class="form-group">
@@ -57,11 +63,20 @@
                         <input type="number" formControlName="lname" required class="form-control"
                             placeholder="Enter Your Phone Number">
                     </div>
+
                     <div class="form-group">
                         <label>City</label>
                         <input type="text" formControlName="lname" required class="form-control"
                             placeholder="Enter Your City">
                     </div>
+
+                   <div class="form-group"> 
+                    <label>Gender: <select name="gender" required>
+										<option value="">-select-</option>
+										<option value="Male">Male</option>
+										<option value="Female">Female</option>
+									</select>
+					</label><br><br>
 
                     <div class="form-group">
                         <label>Email address</label>
@@ -87,7 +102,7 @@
                         </div>
                     </div>
 
-
+ 
                    
                 </div>
                 <div class="modal-footer justify-content-center">
