@@ -169,7 +169,7 @@
 <!-- Modal end -->
 <!-- reg form end -->
 
-<!-- log Form -->
+<!-- login -->
 <div class="modal fade" id="Login" tabindex="-1" role="dialog" aria-labelledby="icepRegisterUser"
     aria-hidden="true">
     <div class="modal-dialog modal-ls" role="document">
@@ -183,29 +183,23 @@
                         <label>Email address</label>
                         <input type="email" formControlName="email" required class="form-control" aria-describedby="emailHelp"
                             placeholder="Enter your Email">
-                        <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                            else.</small> -->
                     </div>
-                    <div class="row">
-                        <div class="col">
                             <div class="form-group">
                                 <label>Password</label>
                                 <input type="password" formControlName="pword" required class="form-control"
                                     placeholder="Enter Secret Password">
                             </div>
-                        </div>
-                    </div>
-                </div>
-                </div>
+
                 <div class="modal-footer justify-content-center">
-                    <button type="submit" class="btn" >Submit</button> 
-                    <a href="login" class="btn btn-link">Login here</a> 
+                    <a href=""><button type="submit" class="btn" >Submit</button></a> 
+                    <a href="" class="btn btn-link">Login here</a> 
                     <!-- (click)="postApplication() -->
                 </div>
             </form>
         </div>
     </div>
 </div>
+<!-- end login -->
 <br><br>
 <h1 class="text-center bold" >Services</h1>
 <br><br>
